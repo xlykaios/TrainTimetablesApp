@@ -13,6 +13,29 @@
 		B70E18872922B14E0005ABF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70E18862922B14E0005ABF2 /* Preview Assets.xcassets */; };
 		B70E18892922B14E0005ABF2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70E18882922B14E0005ABF2 /* Persistence.swift */; };
 		B70E188C2922B14E0005ABF2 /* OrarioTreniMod.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B70E188A2922B14E0005ABF2 /* OrarioTreniMod.xcdatamodeld */; };
+		B70E18942922EAD10005ABF2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70E18932922EAD10005ABF2 /* HomeView.swift */; };
+		B70E189A2922EF760005ABF2 /* EllipseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70E18992922EF760005ABF2 /* EllipseView.swift */; };
+		B70E189C2922EFC50005ABF2 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70E189B2922EFC50005ABF2 /* TopView.swift */; };
+		B70E189E29238FAA0005ABF2 /* oldTrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70E189D29238FAA0005ABF2 /* oldTrain.swift */; };
+		B70E18A0292390170005ABF2 /* oldStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70E189F292390170005ABF2 /* oldStops.swift */; };
+		B70E18A2292390CC0005ABF2 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70E18A1292390CC0005ABF2 /* Station.swift */; };
+		B70E18A5292391A30005ABF2 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70E18A4292391A30005ABF2 /* Database.swift */; };
+		B70E18A72924037B0005ABF2 /* MiddleBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70E18A62924037B0005ABF2 /* MiddleBarView.swift */; };
+		B70E18A929240D3F0005ABF2 /* NearStationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70E18A829240D3F0005ABF2 /* NearStationsListView.swift */; };
+		B70E18AC29240D990005ABF2 /* StationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70E18AB29240D990005ABF2 /* StationsViewModel.swift */; };
+		B70E18AE29240F000005ABF2 /* NearStationsListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70E18AD29240F000005ABF2 /* NearStationsListRow.swift */; };
+		B70E18B0292411F60005ABF2 /* TrainsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70E18AF292411F60005ABF2 /* TrainsViewModel.swift */; };
+		B70E18B2292412A40005ABF2 /* TrainListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70E18B1292412A40005ABF2 /* TrainListRow.swift */; };
+		B723052E292B8F6700019F26 /* TrainpageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723052D292B8F6700019F26 /* TrainpageView.swift */; };
+		B75A8C19292CF29D006A9586 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B75A8C18292CF29D006A9586 /* Lottie */; };
+		B79458A2292D0817001102DD /* LaunchScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79458A1292D0817001102DD /* LaunchScene.swift */; };
+		B7D304032924236400F6B7FB /* TabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D304022924236400F6B7FB /* TabbedView.swift */; };
+		B7D3040529243A7A00F6B7FB /* GeometryViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D3040429243A7A00F6B7FB /* GeometryViewTest.swift */; };
+		B7D3040B2924685000F6B7FB /* CoreTreni.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D304072924685000F6B7FB /* CoreTreni.swift */; };
+		B7D3040C2924685000F6B7FB /* CoreTreniAttr.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D304082924685000F6B7FB /* CoreTreniAttr.swift */; };
+		B7D3040D2924685000F6B7FB /* CoreStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D304092924685000F6B7FB /* CoreStops.swift */; };
+		B7D3040E2924685000F6B7FB /* CoreStopsAttr.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D3040A2924685000F6B7FB /* CoreStopsAttr.swift */; };
+		B7D30412292567A100F6B7FB /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D30411292567A100F6B7FB /* DatePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +46,28 @@
 		B70E18862922B14E0005ABF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B70E18882922B14E0005ABF2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B70E188B2922B14E0005ABF2 /* OrarioTreniMod.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OrarioTreniMod.xcdatamodel; sourceTree = "<group>"; };
+		B70E18932922EAD10005ABF2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B70E18992922EF760005ABF2 /* EllipseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipseView.swift; sourceTree = "<group>"; };
+		B70E189B2922EFC50005ABF2 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		B70E189D29238FAA0005ABF2 /* oldTrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oldTrain.swift; sourceTree = "<group>"; };
+		B70E189F292390170005ABF2 /* oldStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oldStops.swift; sourceTree = "<group>"; };
+		B70E18A1292390CC0005ABF2 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		B70E18A4292391A30005ABF2 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		B70E18A62924037B0005ABF2 /* MiddleBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleBarView.swift; sourceTree = "<group>"; };
+		B70E18A829240D3F0005ABF2 /* NearStationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearStationsListView.swift; sourceTree = "<group>"; };
+		B70E18AB29240D990005ABF2 /* StationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsViewModel.swift; sourceTree = "<group>"; };
+		B70E18AD29240F000005ABF2 /* NearStationsListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearStationsListRow.swift; sourceTree = "<group>"; };
+		B70E18AF292411F60005ABF2 /* TrainsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainsViewModel.swift; sourceTree = "<group>"; };
+		B70E18B1292412A40005ABF2 /* TrainListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainListRow.swift; sourceTree = "<group>"; };
+		B723052D292B8F6700019F26 /* TrainpageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainpageView.swift; sourceTree = "<group>"; };
+		B79458A1292D0817001102DD /* LaunchScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScene.swift; sourceTree = "<group>"; };
+		B7D304022924236400F6B7FB /* TabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedView.swift; sourceTree = "<group>"; };
+		B7D3040429243A7A00F6B7FB /* GeometryViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryViewTest.swift; sourceTree = "<group>"; };
+		B7D304072924685000F6B7FB /* CoreTreni.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTreni.swift; sourceTree = "<group>"; };
+		B7D304082924685000F6B7FB /* CoreTreniAttr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTreniAttr.swift; sourceTree = "<group>"; };
+		B7D304092924685000F6B7FB /* CoreStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreStops.swift; sourceTree = "<group>"; };
+		B7D3040A2924685000F6B7FB /* CoreStopsAttr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreStopsAttr.swift; sourceTree = "<group>"; };
+		B7D30411292567A100F6B7FB /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75A8C19292CF29D006A9586 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,11 +101,12 @@
 		B70E187E2922B14D0005ABF2 /* OrarioTreniMod */ = {
 			isa = PBXGroup;
 			children = (
+				B723052F292CD54A00019F26 /* SKit */,
+				B7D30410292478CD00F6B7FB /* NoCoreAPP */,
+				B7D3040F29246D9700F6B7FB /* CoreData */,
 				B70E187F2922B14D0005ABF2 /* OrarioTreniModApp.swift */,
 				B70E18812922B14D0005ABF2 /* ContentView.swift */,
 				B70E18832922B14E0005ABF2 /* Assets.xcassets */,
-				B70E18882922B14E0005ABF2 /* Persistence.swift */,
-				B70E188A2922B14E0005ABF2 /* OrarioTreniMod.xcdatamodeld */,
 				B70E18852922B14E0005ABF2 /* Preview Content */,
 			);
 			path = OrarioTreniMod;
@@ -71,6 +118,99 @@
 				B70E18862922B14E0005ABF2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B70E18922922EAA90005ABF2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B70E18A32923917F0005ABF2 /* Filled Data */,
+				B70E189D29238FAA0005ABF2 /* oldTrain.swift */,
+				B70E189F292390170005ABF2 /* oldStops.swift */,
+				B70E18A1292390CC0005ABF2 /* Station.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B70E18962922EEC30005ABF2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B723052C292B8F5500019F26 /* TrainViews */,
+				B70E18B3292422740005ABF2 /* ContentView */,
+				B70E18932922EAD10005ABF2 /* HomeView.swift */,
+				B70E18992922EF760005ABF2 /* EllipseView.swift */,
+				B70E189B2922EFC50005ABF2 /* TopView.swift */,
+				B70E18A62924037B0005ABF2 /* MiddleBarView.swift */,
+				B70E18A829240D3F0005ABF2 /* NearStationsListView.swift */,
+				B70E18AD29240F000005ABF2 /* NearStationsListRow.swift */,
+				B70E18B1292412A40005ABF2 /* TrainListRow.swift */,
+				B7D30411292567A100F6B7FB /* DatePickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B70E18A32923917F0005ABF2 /* Filled Data */ = {
+			isa = PBXGroup;
+			children = (
+				B70E18A4292391A30005ABF2 /* Database.swift */,
+			);
+			path = "Filled Data";
+			sourceTree = "<group>";
+		};
+		B70E18AA29240D820005ABF2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B70E18AB29240D990005ABF2 /* StationsViewModel.swift */,
+				B70E18AF292411F60005ABF2 /* TrainsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B70E18B3292422740005ABF2 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				B7D304022924236400F6B7FB /* TabbedView.swift */,
+				B7D3040429243A7A00F6B7FB /* GeometryViewTest.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		B723052C292B8F5500019F26 /* TrainViews */ = {
+			isa = PBXGroup;
+			children = (
+				B723052D292B8F6700019F26 /* TrainpageView.swift */,
+			);
+			path = TrainViews;
+			sourceTree = "<group>";
+		};
+		B723052F292CD54A00019F26 /* SKit */ = {
+			isa = PBXGroup;
+			children = (
+				B79458A1292D0817001102DD /* LaunchScene.swift */,
+			);
+			path = SKit;
+			sourceTree = "<group>";
+		};
+		B7D3040F29246D9700F6B7FB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B70E18882922B14E0005ABF2 /* Persistence.swift */,
+				B7D304072924685000F6B7FB /* CoreTreni.swift */,
+				B7D304082924685000F6B7FB /* CoreTreniAttr.swift */,
+				B7D304092924685000F6B7FB /* CoreStops.swift */,
+				B7D3040A2924685000F6B7FB /* CoreStopsAttr.swift */,
+				B70E188A2922B14E0005ABF2 /* OrarioTreniMod.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B7D30410292478CD00F6B7FB /* NoCoreAPP */ = {
+			isa = PBXGroup;
+			children = (
+				B70E18922922EAA90005ABF2 /* Data */,
+				B70E18962922EEC30005ABF2 /* Views */,
+				B70E18AA29240D820005ABF2 /* ViewModel */,
+			);
+			path = NoCoreAPP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +229,9 @@
 			dependencies = (
 			);
 			name = OrarioTreniMod;
+			packageProductDependencies = (
+				B75A8C18292CF29D006A9586 /* Lottie */,
+			);
 			productName = OrarioTreniMod;
 			productReference = B70E187C2922B14D0005ABF2 /* OrarioTreniMod.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +260,9 @@
 				Base,
 			);
 			mainGroup = B70E18732922B14D0005ABF2;
+			packageReferences = (
+				B75A8C17292CF29D006A9586 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = B70E187D2922B14D0005ABF2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -143,9 +289,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D3040E2924685000F6B7FB /* CoreStopsAttr.swift in Sources */,
+				B70E189E29238FAA0005ABF2 /* oldTrain.swift in Sources */,
+				B70E18A72924037B0005ABF2 /* MiddleBarView.swift in Sources */,
+				B70E18A929240D3F0005ABF2 /* NearStationsListView.swift in Sources */,
+				B7D3040529243A7A00F6B7FB /* GeometryViewTest.swift in Sources */,
+				B70E18A5292391A30005ABF2 /* Database.swift in Sources */,
+				B7D30412292567A100F6B7FB /* DatePickerView.swift in Sources */,
+				B79458A2292D0817001102DD /* LaunchScene.swift in Sources */,
+				B7D304032924236400F6B7FB /* TabbedView.swift in Sources */,
+				B7D3040B2924685000F6B7FB /* CoreTreni.swift in Sources */,
+				B70E189C2922EFC50005ABF2 /* TopView.swift in Sources */,
 				B70E18892922B14E0005ABF2 /* Persistence.swift in Sources */,
 				B70E188C2922B14E0005ABF2 /* OrarioTreniMod.xcdatamodeld in Sources */,
+				B7D3040C2924685000F6B7FB /* CoreTreniAttr.swift in Sources */,
 				B70E18822922B14D0005ABF2 /* ContentView.swift in Sources */,
+				B70E189A2922EF760005ABF2 /* EllipseView.swift in Sources */,
+				B70E18AC29240D990005ABF2 /* StationsViewModel.swift in Sources */,
+				B70E18AE29240F000005ABF2 /* NearStationsListRow.swift in Sources */,
+				B7D3040D2924685000F6B7FB /* CoreStops.swift in Sources */,
+				B723052E292B8F6700019F26 /* TrainpageView.swift in Sources */,
+				B70E18A2292390CC0005ABF2 /* Station.swift in Sources */,
+				B70E18A0292390170005ABF2 /* oldStops.swift in Sources */,
+				B70E18B0292411F60005ABF2 /* TrainsViewModel.swift in Sources */,
+				B70E18942922EAD10005ABF2 /* HomeView.swift in Sources */,
+				B70E18B2292412A40005ABF2 /* TrainListRow.swift in Sources */,
 				B70E18802922B14D0005ABF2 /* OrarioTreniModApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +449,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Launch.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +479,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Launch.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -347,6 +517,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B75A8C17292CF29D006A9586 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B75A8C18292CF29D006A9586 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B75A8C17292CF29D006A9586 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		B70E188A2922B14E0005ABF2 /* OrarioTreniMod.xcdatamodeld */ = {

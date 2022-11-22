@@ -13,7 +13,8 @@ struct OrarioTreniModApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+         TabbedView()
+            //ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
