@@ -36,7 +36,7 @@ var treno1 = oldTrain(id: UUID(), trainNum: "4430",trainBrand: "FS", Delay: 0, i
 
 // MARK: DATI TRENO 2
 
-var stop1_1 = oldStops(id: UUID(),station: "Garibaldi", arrivalTime: "12:00" , departureTime: "12:02")
+var stop1_1 = oldStops(id: UUID(),station: "Garibaldi", arrivalTime: "11:00" , departureTime: "11:02")
 var stop2_1 = oldStops(id: UUID(),station: "Gianturco", arrivalTime: "13:30" , departureTime: "13:32")
 var stop3_1 = oldStops(id: UUID(),station: "S.Giovanni", arrivalTime: "14:40" , departureTime: "14:42")
 var stop4_1 = oldStops(id: UUID(),station: "Barra", arrivalTime: "15:50" , departureTime: "15:52")
@@ -50,12 +50,12 @@ var treno2 = oldTrain(id: UUID(), trainNum: "8930",trainBrand: "EAV", Delay: 0, 
 
 // MARK: DATI TRENO 3
 
-var stop1_2 = oldStops(id: UUID(),station: "Trecase", arrivalTime: "13:00" , departureTime: "13:02")
-var stop2_2 = oldStops(id: UUID(),station: "Leopardi", arrivalTime: "14:30" , departureTime: "14:32")
-var stop3_2 = oldStops(id: UUID(),station: "V.Del Monte", arrivalTime: "15:40" , departureTime: "15:42")
-var stop4_2 = oldStops(id: UUID(),station: "V.S.Antonio", arrivalTime: "16:50" , departureTime: "16:52")
-var stop5_2 = oldStops(id: UUID(),station: "Torre Del Greco", arrivalTime: "17:00" , departureTime: "17:02")
-var stop6_2 = oldStops(id: UUID(),station: "Ercolano", arrivalTime: "18:10" , departureTime: "18:12")
+var stop1_2 = oldStops(id: UUID(),station: "Trecase", arrivalTime: "20:22" , departureTime: "20:24")
+var stop2_2 = oldStops(id: UUID(),station: "Leopardi", arrivalTime: "20:10" , departureTime: "20:12")
+var stop3_2 = oldStops(id: UUID(),station: "V.Del Monte", arrivalTime: "20:00" , departureTime: "20:02")
+var stop4_2 = oldStops(id: UUID(),station: "V.S.Antonio", arrivalTime: "19:50" , departureTime: "19:52")
+var stop5_2 = oldStops(id: UUID(),station: "Torre Del Greco", arrivalTime: "19:40" , departureTime: "19:42")
+var stop6_2 = oldStops(id: UUID(),station: "Ercolano", arrivalTime: "19:30" , departureTime: "19:32")
 var stop7_2 = oldStops(id: UUID(),station: "Portici", arrivalTime: "19:20" , departureTime: "19:22")
 
 var line3 = [stop7_2,stop6_2,stop5_2,stop4_2,stop3_2,stop2_2,stop1_2]
